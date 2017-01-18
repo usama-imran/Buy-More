@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.input_fields
+		{
+		padding: 3px 3px 3px 3px; 
+		border-radius: 3px;
+		-webkit-transition-duration: .5s;
+        transition-duration: .5s;        
+        }
+.input_fields:FOCUS
+        {
+        background-color: rgba(147, 112, 219, 0.2);
+        -webkit-transition-duration: .5s;
+        transition-duration: .5s; 
+        outline: none;
+		}
+		
+.chekbox_click
+		{
+		-webkit-transition-duration: .15s;
+        transition-duration: .15s;
+		}
+.chekbox_click:CHECKED 
+		{
+		width: 15px;
+		height: 15px;
+		-webkit-transition-duration: .15s;
+        transition-duration: .15s; 
+		}
+.error_text
+		{
+		margin-left:5px;
+		font-family:Comic Sans
+		}
+.hidden_dropdowns
+		{
+		padding: 3px 3px 3px 3px; 
+		border-radius: 3px;	
+		}
+.hidden_dropdowns:FOCUS 
+		{
+		background-color: rgba(147, 112, 219, 0.2);
+        border-radius: 3px;
+        -webkit-transition-duration: .5s;
+        transition-duration: .5s; 		
+		}
